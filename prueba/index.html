@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo de AJAX y PHP</title>
+  <link rel="stylesheet" href="demoajaxphp.css">
+  <script src="demoajaxphp.js"></script>
+</head>
+<body>
+  <div id="logo">
+    <img src="logo-soriana.jpg" alt="Logo Soriana">
+  </div>
+  Bienvenido a la tienda en línea. 
+  Selecciona lo que desees
+  <br>
+  <form>
+    <img src="gansito-1.jpg" alt="Gansito Marinela">
+    <br>
+    <label for="cantidad_gansitos">Cantidad</label>
+    <input type="text" id="cantidad_gansitos">
+    <br>
+    <label for="precio_gansito">Precio</label>
+    <input type="text" id="precio_gansito">
+    <br>
+    <input type="button" value="Comprar" onClick="inicia()">
+    <br>
+  </form>
+
+  <div>
+    El precio a pagar es de: $<span id="resultado">Total</span>
+  </div>
+</body>
+</html>
+
